@@ -1,0 +1,53 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+	body{
+		background: tomato;
+	    }
+	h1{
+		color:blue;
+		text-align:right;
+		background-color:green;
+		font-size: 300%
+
+	}
+	h2{
+		font-size: 200%;
+		color:blue;
+		text-align:center;
+	
+	button{
+		background-color:violet;
+	}
+</style>
+<body>
+	<h1>ATM</h1><br>
+	<h2 >Enter the amount</h1>
+	<!--<div style="color:blue"-->
+		<div style="text-align:center;color:blue;">
+			<form  name="deposit_form" action="http://localhost:5000/balance/deposit" method="POST">
+			
+				<input id ="deposit" type="text" name="amount" value="" >
+				<button type="submit">Yes</button>
+			</form>
+		</div>
+			<br>
+			<br>
+			<br>
+			<div>
+				<br>
+			</div>
+		<div style="text-align:left;margin:25px;">
+			<form action="http://localhost:5000/menu" method="GET">
+				<button type="submit">back</button>
+			</form>
+
+	    </div>
+	    
+				
+	
+
+</body>
+</head>
+</html>

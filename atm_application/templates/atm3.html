@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+    body{background-color:Violet;}
+    h1{
+    	background-color:tomato;
+        text-align:center;
+        font-size:200%;
+        margin:20px;
+        padding: 25px;
+        }
+    
+    .access{
+          text-align:right;
+          padding:20px;
+          font-size:100%;
+          color:orange;
+        }
+            
+
+
+</style>
+</head>
+<body>
+	<h1 style="color:blue;"> ATM </h1>
+        
+      	<div class='access'>
+            <form action="http://localhost:5000/deposit" method = "GET">
+                <button type = "submit">deposit</button>
+            </form>
+
+		</div>
+		<div>
+			<br>
+			<br>
+		</div>
+		<div class='access'>
+            <form action="http://localhost:5000/withdrawl" method = "GET">
+        	   <button type = "submit">withdrawl</button>
+            </form>
+		</div>
+		<br>
+		<br>
+		 <div class='access'>
+            <form action="http://localhost:5000/balance/balance" method = "POST">
+                <button type = "submit">balance</button>
+
+            </form>
+		</div>
+		<br>
+		<br>
+		 <div class='access'>
+            <form action="http://localhost:5000/login" method='GET'>
+        	   <button type="submit">back</button>
+            </form>
+
+		</div>
+
+        <div style="text-algn:left;margin:25px;">
+          <form action = "http://localhost:5000/logout" method="POST">
+            <button type="submit">logout</button>
+
+          </form>
+        </div>
+        
+	 
+     
+ </body>
+ </html>
+
+
+        
+        
+        
+       
+   

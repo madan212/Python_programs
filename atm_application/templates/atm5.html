@@ -1,0 +1,58 @@
+<!Doctype html>
+<html>
+<head>
+<style>
+	body{
+		background: tomato;
+	    }
+	h1{
+		color:blue;
+		text-align:right;
+		background-color:green;
+		font-size: 300%
+
+	}
+	h2{
+		font-size: 200%;
+		color:blue;
+		text-align:center;
+	}
+	a:link{
+		text-decoration: None;
+		background-color: violet;
+		font-size:150%;
+	}
+	button{
+		background-color:violet;
+	}
+</style>
+<body>
+	<h1>ATM</h1><br>
+	<h2 >Enter the amount in 100s,500s</h1>
+	
+		<form action ="http://localhost:5000/balance/withdrawl" method='POST'>
+			<div style="text-align:center;">
+				<input id='withdrawl' type="text" name="amount" value="" >
+				<button  type="submit">Yes</button><br>
+			</div>
+		</form>
+			<br>
+			<br>
+			<br>
+			<div>
+				<br>
+			</div>
+		<div style="text-align:left;margin:25px;">
+			<form action="http://localhost:5000/menu" method="GET">
+
+			
+			
+				<button type="submit">back</button>
+			</form>
+		</div>
+		
+	
+
+</body>
+</head>
+</html>

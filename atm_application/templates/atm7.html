@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+    body{background-color:Violet;}
+    h1{
+    	background-color:tomato;
+        text-align:center;
+        font-size:200%;
+        margin:20px;
+        padding: 25px;
+        }
+    form{
+        text-align: right;
+        padding:28px;
+        font-size:200%;
+        color:orange;
+        }
+    .access{
+          
+          padding:20px;
+          font-size:100%;
+          color:orange;
+        }
+            
+
+
+</style>
+</head>
+<body>
+	<h1 style="color:blue;"> ATM </h1>
+        
+      	<div class='access'>
+            <form action="http://localhost:5000/verify1" method = "POST">
+                <label for="acc" style="color:red;">AccountNumber</label>
+                <input type = "text" id="acc" name="account_number" min='1' max='8'><br><br>
+                <label for="pin" style="color:red;">create your PIN</label>
+                <input type="password" id="pin" name="pin" min='1' max='4'><br>
+                <button type="submit">submit</button>
+            </form>
+
+		</div>
+	
+	 
+     
+ </body>
+ </html>
+
+
+        
+        
+        
+       
+   
